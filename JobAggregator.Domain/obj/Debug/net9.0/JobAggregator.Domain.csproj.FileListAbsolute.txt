@@ -1,0 +1,12 @@
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\bin\Debug\net9.0\JobAggregator.Domain.deps.json
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\bin\Debug\net9.0\JobAggregator.Domain.dll
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\bin\Debug\net9.0\JobAggregator.Domain.pdb
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\obj\Debug\net9.0\JobAggregator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\obj\Debug\net9.0\JobAggregator.Domain.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\obj\Debug\net9.0\JobAggregator.Domain.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\obj\Debug\net9.0\JobAggregator.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\obj\Debug\net9.0\JobAggregator.Domain.sourcelink.json
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\obj\Debug\net9.0\JobAggregator.Domain.dll
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\obj\Debug\net9.0\refint\JobAggregator.Domain.dll
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\obj\Debug\net9.0\JobAggregator.Domain.pdb
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Domain\obj\Debug\net9.0\ref\JobAggregator.Domain.dll

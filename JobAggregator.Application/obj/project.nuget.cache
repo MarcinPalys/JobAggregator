@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4000Svuxb+8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Application\\JobAggregator.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.14\\microsoft.extensions.dependencyinjection.abstractions.9.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

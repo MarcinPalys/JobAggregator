@@ -1,0 +1,16 @@
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\bin\Debug\net9.0\JobAggregator.Application.deps.json
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\bin\Debug\net9.0\JobAggregator.Application.dll
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\bin\Debug\net9.0\JobAggregator.Application.pdb
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\bin\Debug\net9.0\JobAggregator.Domain.dll
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\bin\Debug\net9.0\JobAggregator.Domain.pdb
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\JobAggregator.Application.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\JobAggregator.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\JobAggregator.Application.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\JobAggregator.Application.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\JobAggregator.Application.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\JobAggregator.Application.sourcelink.json
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\JobAggre.AA304A55.Up2Date
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\JobAggregator.Application.dll
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\refint\JobAggregator.Application.dll
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\JobAggregator.Application.pdb
+C:\Users\ADMIN\source\repos\JobAggregator\JobAggregator.Application\obj\Debug\net9.0\ref\JobAggregator.Application.dll
