@@ -12,6 +12,8 @@ namespace JobAggregator.Domain.Entities
         public string Title { get; set; } = string.Empty;
         public string Company { get; set; } = string.Empty;
         public string Location { get; set; } = string.Empty;
+        public string? City { get; set; }        // nowe
+        public string? Category { get; set; }    // nowe
         public string? Description { get; set; }
         public decimal? SalaryMin { get; set; }
         public decimal? SalaryMax { get; set; }

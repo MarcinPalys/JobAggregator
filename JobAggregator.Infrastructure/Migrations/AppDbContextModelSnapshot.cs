@@ -28,6 +28,12 @@ namespace JobAggregator.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<string>("Category")
+                        .HasColumnType("text");
+
+                    b.Property<string>("City")
+                        .HasColumnType("text");
+
                     b.Property<string>("Company")
                         .IsRequired()
                         .HasMaxLength(200)

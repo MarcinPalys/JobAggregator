@@ -53,12 +53,14 @@ public class AdzunaJobSource : IJobSource
                 Title = r.Title ?? string.Empty,
                 Company = r.Company?.DisplayName ?? "Nieznana firma",
                 Location = r.Location?.DisplayName ?? string.Empty,
+                City = r.Location?.Area?.LastOrDefault(),  // ostatni element = miasto
+                Category = r.Category?.Label,
                 Description = r.Description,
                 SalaryMin = r.SalaryMin,
                 SalaryMax = r.SalaryMax,
                 Currency = "PLN",
                 SourceName = SourceName,
-                SourceUrl = r.RedirectUrl ?? string.Empty,
+                SourceUrl = r.Redirect_Url ?? string.Empty,
                 PublishedAt = r.Created
             });
         }
@@ -82,11 +84,17 @@ file class AdzunaJob
     public string? Title { get; set; }
     public AdzunaCompany? Company { get; set; }
     public AdzunaLocation? Location { get; set; }
+    public AdzunaCategory? Category { get; set; }
     public string? Description { get; set; }
     public decimal? SalaryMin { get; set; }
     public decimal? SalaryMax { get; set; }
-    public string? RedirectUrl { get; set; }
+    public string? Redirect_Url { get; set; }
     public DateTime? Created { get; set; }
+}
+
+file class AdzunaCategory
+{
+    public string? Label { get; set; }
 }
 
 file class AdzunaCompany
@@ -97,4 +105,5 @@ file class AdzunaCompany
 file class AdzunaLocation
 {
     public string? DisplayName { get; set; }
+    public List<string>? Area { get; set; }
 }
