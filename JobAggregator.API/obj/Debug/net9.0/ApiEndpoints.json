@@ -24,5 +24,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobAggregator.API.Controllers.JobsController",
+    "Method": "GetPaged",
+    "RelativePath": "api/Jobs/paged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

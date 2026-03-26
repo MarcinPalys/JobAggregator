@@ -1,4 +1,5 @@
-﻿using JobAggregator.Domain.Entities;
+﻿using JobAggregator.Application.Models;
+using JobAggregator.Domain.Entities;
 using JobAggregator.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -59,6 +60,24 @@ namespace JobAggregator.Infrastructure.Persistence
             }
 
             await _context.SaveChangesAsync(cancellationToken);
+        }
+        public async Task<PagedResult<JobOffer>> GetPagedAsync(int page, int pageSize, CancellationToken cancellationToken = default)
+        {
+            var totalCount = await _context.JobOffers.CountAsync(cancellationToken);
+
+            var items = await _context.JobOffers
+                .OrderByDescending(j => j.FetchedAt)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync(cancellationToken);
+
+            return new PagedResult<JobOffer>
+            {
+                Items = items,
+                TotalCount = totalCount,
+                Page = page,
+                PageSize = pageSize
+            };
         }
     }
 }

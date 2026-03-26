@@ -94,16 +94,19 @@ file class AdzunaJob
 
 file class AdzunaCategory
 {
+    [System.Text.Json.Serialization.JsonPropertyName("label")]
     public string? Label { get; set; }
 }
 
 file class AdzunaCompany
 {
+    [System.Text.Json.Serialization.JsonPropertyName("display_name")]
     public string? DisplayName { get; set; }
 }
 
 file class AdzunaLocation
 {
+    [System.Text.Json.Serialization.JsonPropertyName("display_name")]
     public string? DisplayName { get; set; }
     public List<string>? Area { get; set; }
 }

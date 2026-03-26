@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Migrations\\20260325164541_AddCityAndCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JobAggregator.Infrastructure\\Migrations\\20260325164541_AddCityAndCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08458F19-D1A5-4933-97C1-C967D1B3E2CF}|JobAggregator.Infrastructure\\JobAggregator.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.infrastructure\\scrapers\\justjoinjobsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08458F19-D1A5-4933-97C1-C967D1B3E2CF}|JobAggregator.Infrastructure\\JobAggregator.Infrastructure.csproj|solutionrelative:jobaggregator.infrastructure\\scrapers\\justjoinjobsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{049577A0-C159-4BD6-B17D-1302C5678700}|JobAggregator.API\\JobAggregator.API.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049577A0-C159-4BD6-B17D-1302C5678700}|JobAggregator.API\\JobAggregator.API.csproj|solutionrelative:jobaggregator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08458F19-D1A5-4933-97C1-C967D1B3E2CF}|JobAggregator.Infrastructure\\JobAggregator.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.infrastructure\\scrapers\\adzunajobsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08458F19-D1A5-4933-97C1-C967D1B3E2CF}|JobAggregator.Infrastructure\\JobAggregator.Infrastructure.csproj|solutionrelative:jobaggregator.infrastructure\\scrapers\\adzunajobsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.domain\\entities\\joboffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|solutionrelative:jobaggregator.domain\\entities\\joboffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{049577A0-C159-4BD6-B17D-1302C5678700}|JobAggregator.API\\JobAggregator.API.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.api\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{049577A0-C159-4BD6-B17D-1302C5678700}|JobAggregator.API\\JobAggregator.API.csproj|solutionrelative:jobaggregator.api\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08458F19-D1A5-4933-97C1-C967D1B3E2CF}|JobAggregator.Infrastructure\\JobAggregator.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.infrastructure\\persistence\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08458F19-D1A5-4933-97C1-C967D1B3E2CF}|JobAggregator.Infrastructure\\JobAggregator.Infrastructure.csproj|solutionrelative:jobaggregator.infrastructure\\persistence\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{049577A0-C159-4BD6-B17D-1302C5678700}|JobAggregator.API\\JobAggregator.API.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.api\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{049577A0-C159-4BD6-B17D-1302C5678700}|JobAggregator.API\\JobAggregator.API.csproj|solutionrelative:jobaggregator.api\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.domain\\entities\\joboffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|solutionrelative:jobaggregator.domain\\entities\\joboffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08458F19-D1A5-4933-97C1-C967D1B3E2CF}|JobAggregator.Infrastructure\\JobAggregator.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08458F19-D1A5-4933-97C1-C967D1B3E2CF}|JobAggregator.Infrastructure\\JobAggregator.Infrastructure.csproj|solutionrelative:jobaggregator.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.domain\\interfaces\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|solutionrelative:jobaggregator.domain\\interfaces\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{049577A0-C159-4BD6-B17D-1302C5678700}|JobAggregator.API\\JobAggregator.API.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{049577A0-C159-4BD6-B17D-1302C5678700}|JobAggregator.API\\JobAggregator.API.csproj|solutionrelative:jobaggregator.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.domain\\interfaces\\ijobsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|solutionrelative:jobaggregator.domain\\interfaces\\ijobsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|c:\\users\\admin\\source\\repos\\jobaggregator\\jobaggregator.domain\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{135F0FEE-F1C7-44DA-AF94-33012278C6D3}|JobAggregator.Domain\\JobAggregator.Domain.csproj|solutionrelative:jobaggregator.domain\\models\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +46,123 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260325164541_AddCityAndCategory.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Migrations\\20260325164541_AddCityAndCategory.cs",
-              "RelativeDocumentMoniker": "JobAggregator.Infrastructure\\Migrations\\20260325164541_AddCityAndCategory.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Migrations\\20260325164541_AddCityAndCategory.cs",
-              "RelativeToolTip": "JobAggregator.Infrastructure\\Migrations\\20260325164541_AddCityAndCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:45:41.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JobsController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.API\\Controllers\\JobsController.cs",
-              "RelativeDocumentMoniker": "JobAggregator.API\\Controllers\\JobsController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.API\\Controllers\\JobsController.cs",
-              "RelativeToolTip": "JobAggregator.API\\Controllers\\JobsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:31:52.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JobOffer.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Entities\\JobOffer.cs",
-              "RelativeDocumentMoniker": "JobAggregator.Domain\\Entities\\JobOffer.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Entities\\JobOffer.cs",
-              "RelativeToolTip": "JobAggregator.Domain\\Entities\\JobOffer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:31:12.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "JobAggregator.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "JobAggregator.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:31:02.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JobRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Persistence\\JobRepository.cs",
-              "RelativeDocumentMoniker": "JobAggregator.Infrastructure\\Persistence\\JobRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Persistence\\JobRepository.cs",
-              "RelativeToolTip": "JobAggregator.Infrastructure\\Persistence\\JobRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:31:02.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdzunaJobSource.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Scrapers\\AdzunaJobSource.cs",
-              "RelativeDocumentMoniker": "JobAggregator.Infrastructure\\Scrapers\\AdzunaJobSource.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Scrapers\\AdzunaJobSource.cs",
-              "RelativeToolTip": "JobAggregator.Infrastructure\\Scrapers\\AdzunaJobSource.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAEwGgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:30:53.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.API\\Program.cs",
               "RelativeDocumentMoniker": "JobAggregator.API\\Program.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.API\\Program.cs",
               "RelativeToolTip": "JobAggregator.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:16:54.61Z",
+              "WhenOpened": "2026-03-26T13:25:44.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JustJoinJobSource.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Scrapers\\JustJoinJobSource.cs",
+              "RelativeDocumentMoniker": "JobAggregator.Infrastructure\\Scrapers\\JustJoinJobSource.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Scrapers\\JustJoinJobSource.cs",
+              "RelativeToolTip": "JobAggregator.Infrastructure\\Scrapers\\JustJoinJobSource.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:25:19.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdzunaJobSource.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Scrapers\\AdzunaJobSource.cs",
+              "RelativeDocumentMoniker": "JobAggregator.Infrastructure\\Scrapers\\AdzunaJobSource.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Scrapers\\AdzunaJobSource.cs",
+              "RelativeToolTip": "JobAggregator.Infrastructure\\Scrapers\\AdzunaJobSource.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAA4wG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:15:34.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JobsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.API\\Controllers\\JobsController.cs",
+              "RelativeDocumentMoniker": "JobAggregator.API\\Controllers\\JobsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.API\\Controllers\\JobsController.cs",
+              "RelativeToolTip": "JobAggregator.API\\Controllers\\JobsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:04:33.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Persistence\\JobRepository.cs",
+              "RelativeDocumentMoniker": "JobAggregator.Infrastructure\\Persistence\\JobRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Infrastructure\\Persistence\\JobRepository.cs",
+              "RelativeToolTip": "JobAggregator.Infrastructure\\Persistence\\JobRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwEUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:03:34.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IJobSource.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Interfaces\\IJobSource.cs",
+              "RelativeDocumentMoniker": "JobAggregator.Domain\\Interfaces\\IJobSource.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Interfaces\\IJobSource.cs",
+              "RelativeToolTip": "JobAggregator.Domain\\Interfaces\\IJobSource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:02:47.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Models\\PagedResult.cs",
+              "RelativeDocumentMoniker": "JobAggregator.Domain\\Models\\PagedResult.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Models\\PagedResult.cs",
+              "RelativeToolTip": "JobAggregator.Domain\\Models\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T13:02:45.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IJobRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Interfaces\\IJobRepository.cs",
+              "RelativeDocumentMoniker": "JobAggregator.Domain\\Interfaces\\IJobRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Interfaces\\IJobRepository.cs",
+              "RelativeToolTip": "JobAggregator.Domain\\Interfaces\\IJobRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:55:11.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JobOffer.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Entities\\JobOffer.cs",
+              "RelativeDocumentMoniker": "JobAggregator.Domain\\Entities\\JobOffer.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\JobAggregator\\JobAggregator.Domain\\Entities\\JobOffer.cs",
+              "RelativeToolTip": "JobAggregator.Domain\\Entities\\JobOffer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T12:55:04.12Z",
               "EditorCaption": ""
             }
           ]

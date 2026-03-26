@@ -28,6 +28,8 @@ builder.Services.AddHttpClient<AdzunaJobSource>();
 builder.Services.AddScoped<IJobSource, AdzunaJobSource>();
 builder.Services.AddScoped<FetchOrchestrator>();
 builder.Services.AddHostedService<JobFetcherService>();
+builder.Services.AddHttpClient<JustJoinJobSource>();
+builder.Services.AddScoped<IJobSource, JustJoinJobSource>();
 
 builder.Services.AddCors(options =>
 {

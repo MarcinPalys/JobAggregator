@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JobAggregator.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dbfcafacc5d6af24b569e1bd4c2230e5d50c4b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+302e5411b131c6df8efa6e15d6ece97791b6d784")]
 [assembly: System.Reflection.AssemblyProductAttribute("JobAggregator.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JobAggregator.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

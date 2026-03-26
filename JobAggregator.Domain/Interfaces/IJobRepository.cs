@@ -1,4 +1,5 @@
-﻿using JobAggregator.Domain.Entities;
+﻿using JobAggregator.Application.Models;
+using JobAggregator.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace JobAggregator.Domain.Interfaces
     {
         Task<IEnumerable<JobOffer>> GetAllAsync(CancellationToken cancellationToken = default);
         Task<JobOffer?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
+        Task<PagedResult<JobOffer>> GetPagedAsync(int page, int pageSize, CancellationToken cancellationToken = default);
         Task UpsertAsync(IEnumerable<JobOffer> offers, CancellationToken cancellationToken = default);
     }
 }

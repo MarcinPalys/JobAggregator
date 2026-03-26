@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import type { JobOffer } from './types/JobOffer';
 import { jobService } from './services/jobService';
+import type { PagedResult } from './services/jobService';
 import { JobCard } from './components/JobCard';
+import { Pagination } from './components/Pagination';
 
 const detectLevel = (title: string): string => {
   const t = title.toLowerCase();
@@ -15,22 +17,42 @@ const detectLevel = (title: string): string => {
 };
 
 function App() {
+  const [pagedResult, setPagedResult] = useState<PagedResult | null>(null);
   const [jobs, setJobs] = useState<JobOffer[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [page, setPage] = useState(1);
   const [search, setSearch] = useState('');
   const [salaryFilter, setSalaryFilter] = useState('');
   const [sourceFilter, setSourceFilter] = useState('');
   const [cityFilter, setCityFilter] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('');
   const [levelFilter, setLevelFilter] = useState('');
+  const PAGE_SIZE = 20;
 
-  useEffect(() => {
-    jobService.getAll()
-      .then(setJobs)
-      .catch(() => setError('Nie udało się pobrać ofert pracy'))
-      .finally(() => setLoading(false));
-  }, []);
+ useEffect(() => {
+  let cancelled = false;
+
+  jobService.getPaged(page, PAGE_SIZE)
+    .then(result => {
+      if (!cancelled) {
+        setPagedResult(result);
+        setJobs(result.items);
+        setLoading(false);
+      }
+    })
+    .catch(() => {
+      if (!cancelled) {
+        setError('Nie udało się pobrać ofert pracy');
+        setLoading(false);
+      }
+    });
+
+  return () => {
+    cancelled = true;
+    setLoading(true);
+  };
+}, [page]);
 
   const cities = [...new Set(jobs.map(j => j.city).filter(Boolean))].sort();
   const categories = [...new Set(jobs.map(j => j.category).filter(Boolean))].sort();
@@ -62,6 +84,11 @@ function App() {
   };
 
   const hasFilters = search || cityFilter || categoryFilter || salaryFilter || sourceFilter || levelFilter;
+
+  const handlePageChange = (newPage: number) => {
+    setPage(newPage);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -113,7 +140,7 @@ function App() {
             <option value="Senior">Senior</option>
             <option value="Lead">Lead</option>
             <option value="Manager">Manager</option>
-            
+            <option value="Nieokreślony">Nieokreślony</option>
           </select>
 
           <select value={salaryFilter} onChange={e => setSalaryFilter(e.target.value)}
@@ -137,7 +164,9 @@ function App() {
           )}
 
           <span className="ml-auto text-sm text-gray-500">
-            Znaleziono <span className="font-semibold text-gray-800">{filtered.length}</span> ofert
+            Znaleziono <span className="font-semibold text-gray-800">
+              {pagedResult?.totalCount ?? 0}
+            </span> ofert
           </span>
         </div>
       </div>
@@ -152,6 +181,15 @@ function App() {
           <div className="flex flex-col gap-4">
             {filtered.map(job => <JobCard key={job.id} job={job} />)}
           </div>
+        )}
+        {pagedResult && (
+          <Pagination
+            page={pagedResult.page}
+            totalPages={pagedResult.totalPages}
+            hasNextPage={pagedResult.hasNextPage}
+            hasPreviousPage={pagedResult.hasPreviousPage}
+            onPageChange={handlePageChange}
+          />
         )}
       </main>
     </div>

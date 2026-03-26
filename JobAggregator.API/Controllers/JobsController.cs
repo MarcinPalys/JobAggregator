@@ -28,4 +28,13 @@ public class JobsController : ControllerBase
         if (job is null) return NotFound();
         return Ok(job);
     }
+    [HttpGet("paged")]
+    public async Task<IActionResult> GetPaged([FromQuery] int page = 1, [FromQuery] int pageSize = 20, CancellationToken cancellationToken = default)
+    {
+        if (page < 1) page = 1;
+        if (pageSize < 1 || pageSize > 100) pageSize = 20;
+
+        var result = await _repository.GetPagedAsync(page, pageSize, cancellationToken);
+        return Ok(result);
+    }
 }
