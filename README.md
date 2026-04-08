@@ -103,7 +103,6 @@ Swagger dostępny pod: `http://localhost:5000/swagger`
 | Źródło | API | Uwagi |
 |--------|-----|-------|
 | **Adzuna** | REST API (wymaga klucza) | 50 ofert na żądanie |
-| **JustJoin.it** | Publiczne API | Bez klucza, `https://api.justjoin.it/offers` |
 
 ## Technologie
 
